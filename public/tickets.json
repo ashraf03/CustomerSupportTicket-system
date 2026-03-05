@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TKT-1001",
+    "title": "Payment gateway timeout",
+    "description": "Customer reported 404 error during checkout on mobile devices.",
+    "customer": "Arif Ahmed",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T08:30:00Z"
+  },
+  {
+    "id": "TKT-1002",
+    "title": "Login issues with MFA",
+    "description": "Users not receiving the 6-digit verification code via SMS.",
+    "customer": "Sarah Jenkins",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T10:15:00Z"
+  },
+  {
+    "id": "TKT-1003",
+    "title": "Invoice layout bug",
+    "description": "The company logo is overlapping with the address line on PDF exports.",
+    "customer": "Global Tech Solutions",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-02T14:45:00Z"
+  },
+  {
+    "id": "TKT-1004",
+    "title": "Feature request: Dark mode",
+    "description": "Requesting a dark mode toggle for the main administration panel.",
+    "customer": "Mark Stevenson",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-03-03T09:00:00Z"
+  },
+  {
+    "id": "TKT-1005",
+    "title": "API rate limit reached",
+    "description": "Internal logs show multiple 429 errors for the external shipping API.",
+    "customer": "Logistics Pro",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03T11:20:00Z"
+  },
+  {
+    "id": "TKT-1006",
+    "title": "Incorrect currency conversion",
+    "description": "The BDT to USD conversion rate is outdated on the pricing page.",
+    "customer": "Rahat Kabir",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T16:05:00Z"
+  },
+  {
+    "id": "TKT-1007",
+    "title": "Broken link in footer",
+    "description": "The 'Privacy Policy' link leads to a broken 404 page.",
+    "customer": "Elena Gilbert",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-04T07:50:00Z"
+  },
+  {
+    "id": "TKT-1008",
+    "title": "Slow dashboard loading",
+    "description": "Analytics dashboard takes over 10 seconds to load data for larger accounts.",
+    "customer": "DataCorp",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T13:10:00Z"
+  },
+  {
+    "id": "TKT-1009",
+    "title": "Password reset email failed",
+    "description": "User requested reset 3 times but never received the email link.",
+    "customer": "James Wilson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04T15:30:00Z"
+  },
+  {
+    "id": "TKT-1010",
+    "title": "Database connection error",
+    "description": "Occasional 500 Internal Server Error during peak traffic hours.",
+    "customer": "App Insights",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-03-05T02:20:00Z"
+  },
+  {
+    "id": "TKT-1011",
+    "title": "Typo in welcome email",
+    "description": "The word 'Success' is misspelled as 'Sucess' in the onboarding email.",
+    "customer": "Marketing Team",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-05T05:15:00Z"
+  },
+  {
+    "id": "TKT-1012",
+    "title": "Bulk upload failure",
+    "description": "CSV upload fails when the file size exceeds 5MB without a warning message.",
+    "customer": "Inventory Masters",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05T08:45:00Z"
+  }
+]
