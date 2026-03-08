@@ -16,40 +16,6 @@ const MainSection = ({tiketsData, handleTicket, tiket}) => {
                             <MainCard tiket={tiket} handleTicket={handleTicket}></MainCard>
                         ))
                     }
-                    <div>
-                            <div className='flex justify-between mb-3'>
-                                <h3 className='text-xl font-bold'>hi</h3>
-                                <span className='bg-[#B9F8CF] p-3 rounded-xl'><i class="fas fa-dot-circle"></i> Open</span>
-                            </div>
-                            <p className='mb-3'>Customer is unable to log in to their account. They've tried resetting their password multiple times but still...</p>
-                            <div className='flex justify-between'>
-                                <div className='flex gap-6'>
-                                    <span>#1001</span>
-                                    <span>HIGH PRIORITY</span>
-                                </div>
-                                <div className='flex gap-6'>
-                                    <span>John Smith</span>
-                                    <span>1/15/2024</span>
-                                </div>
-                            </div>
-                    </div>
-                    <div>
-                        <div className='flex justify-between mb-3'>
-                            <h3>Login Issues - Can't Access Account</h3>
-                            <span>Open</span>
-                        </div>
-                        <p className='mb-3'>Customer is unable to log in to their account. They've tried resetting their password multiple times but still...</p>
-                        <div className='flex justify-between'>
-                            <div className='flex gap-6'>
-                                <span>#1001</span>
-                                <span>HIGH PRIORITY</span>
-                            </div>
-                            <div className='flex gap-6'>
-                                <span>John Smith</span>
-                                <span>1/15/2024</span>
-                            </div>
-                        </div>
-                    </div> 
                 </div>
             </div>
 
