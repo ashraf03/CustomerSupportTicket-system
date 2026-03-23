@@ -11,13 +11,13 @@ import React from 'react';
 //     "createdAt": "2026-03-01T08:30:00Z"
 // }
 const MainCard = ({tiket, handleTicket}) => {
-    console.log(tiket.title)
     return (
         <div  key={tiket.id}
           onClick={() => handleTicket(tiket)}>
             <div className='flex justify-between mb-3'>
-                <h3 className='text-xl font-bold'>{tiket.title}</h3>
-                <span className='bg-[#B9F8CF] p-3 rounded-xl'><i class="fas fa-dot-circle"></i>{tiket.status}</span>
+                <h3 className='text-xl font-bold justy text-[18px]'>{tiket.title}</h3>
+                <span className={`p-3 rounded-xl ${tiket.status === "Open" ? "bg-[#B9F8CF]" : "bg-[#9C7700]"} flex justify-center items-center gap-2`}>
+                <span className={`w-4 h-4 ${tiket.status === "Open" ? "bg-[#0B5E06]" : "bg-[#FEBB0C]"} rounded-full`}></span>{tiket.status}</span>
             </div>
             <p className='mb-3'>{tiket.description}</p>
             <div className='flex justify-between'>

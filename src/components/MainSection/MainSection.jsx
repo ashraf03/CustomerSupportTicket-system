@@ -1,27 +1,37 @@
-import React, { use } from 'react';
+import React from 'react';
 import MainCard from './MainCard/MainCard';
 import TaskStatus from './TaskStatus/TaskStatus';
 
-const MainSection = ({tiketsData, handleTicket, tiket}) => {
-    const tikets = use(tiketsData);
+const MainSection = ({tiketsData, handleTicket, tiket, resolved, decCount}) => {
 
-    console.log(tikets);
-    return (
-        <div className='w-[1200px] mx-auto flex mt-10'>
-            <div className=''>
-                <h3 className='mb-6 text-2xl font-bold'>Customer Tickets</h3>
-                <div className='grid grid-cols-2 gap-10'>
-                    {
-                        tikets.map(tiket => (
-                            <MainCard tiket={tiket} handleTicket={handleTicket}></MainCard>
-                        ))
-                    }
-                </div>
-            </div>
+  return (
+    <div className='w-[1200px] mx-auto flex mt-10 gap-10'>
 
-            <TaskStatus  tiket ={tiket}></TaskStatus>
+      <div>
+        <h3 className='mb-6 text-2xl font-bold'>Customer Tickets</h3>
+
+        <div className='grid grid-cols-2 gap-10'>
+
+          {tiketsData.map(ticket => (
+            <MainCard
+              key={ticket.id}
+              tiket={ticket}
+              handleTicket={handleTicket}
+            />
+          ))}
+
         </div>
-    );
+
+      </div>
+
+      <TaskStatus
+        tiket={tiket}
+        resolved={resolved}
+        decCount={decCount}
+      />
+
+    </div>
+  );
 };
 
 export default MainSection;
